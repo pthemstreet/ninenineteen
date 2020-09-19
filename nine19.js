@@ -10,3 +10,5 @@ io.on('connection', (socket) => {
 	console.log("Welcome a new player!");
 	io.sockets.emit('name', type);
 });
+
+http.listen(3000);
